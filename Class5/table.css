@@ -1,0 +1,22 @@
+table{
+    background-color: lightgray;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.spec{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#headee{
+    color: red;
+    background-color: aliceblue;
+}
+
+.spec th{
+    color: orange;
+}
