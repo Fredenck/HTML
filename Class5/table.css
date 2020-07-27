@@ -1,5 +1,12 @@
+
+
 table{
     background-color: lightgray;
+/*
+    margin-left: auto;
+    margin-right: auto;
+*/
+    
 }
 
 table, th, td {
@@ -7,16 +14,30 @@ table, th, td {
     padding: 5px;
 }
 
+
+
 .spec{
     border-collapse: collapse;
-    text-align: center;
+    text-align: right;
 }
 
 #headee{
     color: red;
-    background-color: aliceblue;
+    width: 100%;
 }
 
 .spec th{
     color: orange;
+}
+
+.spec, .spec th, .spec td{
+    border: 2px dotted black;
+}
+
+.spec tr:nth-child(even){
+    background-color: azure;
+}
+
+.spec tr:nth-child(odd){
+    background-color: aliceblue;
 }
