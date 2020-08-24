@@ -1,0 +1,48 @@
+<html>      
+<nav id="navbar">
+    <a>Something</a>
+    <ul>
+        <li><a href="index.html">Tab 1</a></li>
+        <li><a href="about.html">Tab 2</a></li>
+        <li><a href="projects.html">Tab 3</a></li>
+    </ul>
+</nav>
+</html>  
+
+
+<style>
+	nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 80px;
+        background: gray;
+        padding: 0 100px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.5s;
+        
+	}
+
+	nav ul{
+		margin: 0;
+		padding: 0;
+        display: flex;
+	}
+
+	nav li{
+        list-style: none;
+	}
+
+	nav ul li a{
+		color: #fff;
+        padding: 0 20px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1.1em;
+        font-weight: bold;
+	}
+
+</style>
